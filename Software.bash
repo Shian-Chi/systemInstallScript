@@ -12,7 +12,7 @@ curl -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x6
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o chrome.deb
 
 # 使用 apt 安裝本地 deb (會自動處理依賴問題)
-sudo apt install -y ./vscode.deb ./chrome.deb
+sudo dpkg -i ./vscode.deb ./chrome.deb
 
 # 清理下載的安裝包
 rm vscode.deb chrome.deb
