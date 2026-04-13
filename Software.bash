@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 # 安裝基礎工具
 sudo apt update
 sudo apt install -y vlc wget curl
