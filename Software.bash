@@ -5,9 +5,6 @@ set -e
 sudo apt update
 sudo apt install -y vlc wget curl
 
-# 安裝網路工具
-sudo apt install gnome-nettool
-
 # 下載 VS Code (加上 -L 處理重導向)
 curl -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -o vscode.deb
 
